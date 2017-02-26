@@ -1,8 +1,8 @@
 Computer Security - CS466DE
 Assignment 1 - Week 1
 ----------------------------------------------------------------------------------------------------------
-Student Name: Sabin Karki
-Student ID: 984454
+Student Name: 
+Student ID: 
 ----------------------------------------------------------------------------------------------------------------
 This assignment is based on lecture 1.  
 Please submit your own work on time.  You'll NOT get credit if you submit the assignment after the due date.   
