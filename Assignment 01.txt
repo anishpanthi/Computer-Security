@@ -1,0 +1,98 @@
+Computer Security - CS466DE
+Assignment 1 - Week 1
+----------------------------------------------------------------------------------------------------------
+Student Name: Sabin Karki
+Student ID: 984454
+----------------------------------------------------------------------------------------------------------------
+This assignment is based on lecture 1.  
+Please submit your own work on time.  You'll NOT get credit if you submit the assignment after the due date.   
+Note that the completed assignment should be submitted in .doc, .txt or .pdf format only.
+If you think that your answer needs explanation to get credit then please write it down.  
+If you’ve any questions about the assignment, then post a topic on the Sakai forum to discuss that problem.
+
+(1) A threat happens when the security of the system is violated.
+a) true
+b) false
+ANS:b;Threat is potential viloation.
+
+(2) Select all factors that directly affect the integrity of data.
+a) its origin
+b) its size
+c) how well the data is protected before it arrived at its destination
+d) how well it is protected at its destination machine
+e) whether it is encrypted or not
+f) none of the above
+ANS:a,c,d; Origin,data protection before and after, afftects the integirty of data.
+
+(3) A security policy is a statement of what is, and what is not allowed, and recommends procedures to enforce its requirements.
+a) true
+b) false
+ANS:b; A security policy is often considered to be a "living document", meaning that the document is never finished, 
+but is continuously updated as technology and employee requirements change. 
+
+(4) Origin integrity is a
+a) prevention mechanism
+b) detection mechanism
+c) none of the above
+ANS:a; to prevent unauthorized users to access
+
+(5) Cryptography can be used to assure which of the following?
+a) confidentiality
+b) integrity
+c) availability
+d) none of the above
+ANS:a,b; Use for secure communication which used cofidentialty and aslo it is used for digital signatures which is one of the way of assuring integrity.
+
+(6) Which of these threats affect disclosure (the unauthorized access to information)?
+a) snooping
+b) modification or alteration
+c) masquerading or spoofing
+d) repudiation of origin
+e) denial of receipt
+f) delay
+g) denial of service
+h) none of the above
+ANS:c; Situation in which one person or program successfully masquerades as another by falsifying data
+
+
+(7) A denial of service attack is an attack on
+a) confidentiality
+b) integrity
+c) availability
+d) none of the above
+ANS:c; DOS attack is a type of attack where service is not provided back from server to the proper cliect. To prevent it I guess we have to check referral kind of things.
+
+(8) What is the weakest link in the security mechanisms of any computer system?
+a) the network
+b) the operating system
+c) the application programs
+d) the human beings using the system
+ANS:d. If somone gives his/her credentials then everything can happen.
+
+(9) Assurance is an attempt to quantify trust.
+a) true
+b) false
+ANS:a; Yes assurance is gaining trust over the use of software.
+
+(10) There is no technical solution to the problem of social engineering.
+a) true
+b) false
+ANS:a; if someone is tricked suppose by phone call or something like that and if he gave his credentails then evrything can happen.
+
+(11) Cost-benefit analysis and risk analysis are techniques used to increase assurance.
+a) true
+b) false
+ANS:b; They don't guarantee assurance rather they deals with how much you want to spend.
+
+(12) A mail server that drops all messages that mention a URL, have an attachment, contain non-ASCII characters or are longer than 2KB is an example of what kind of security mechanism?
+a) secure
+b) precise
+c) broad
+ANS:a; not precise as it drops all messages that are not threat to security and as well not broad beacuse its criteria are so strict that threat cannot rise.So the option is a.
+
+(13) Performing regular backups is a means to realize the security goal of
+a) prevention
+b) detection
+c) redundancy
+d) none of the above
+ANS:d; Back up is related to recovery not security things.
