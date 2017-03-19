@@ -1,0 +1,101 @@
+Computer Security - CS466 DE
+Assignment 4 - Week 4
+-------------------------------------------------------------------------------------------------------
+Student Name: - 
+Student ID: - 
+-------------------------------------------------------------------------------------------------------------
+This assignment is based on topics covered in week 4 (lecture 6 & 7).
+Please submit your own work on time.  You'll NOT get credit if you submit the assignment after the due date.
+Note that the completed assignment should be submitted in .txt format only.
+If you think that your answer needs explanation to get credit then please write it down.
+If you've any questions about the assignment, then post a topic on the Sakai forum to discuss that problem.
+
+
+(1) In a Caesar cipher, the encryption function is the same as the decryption function.
+a) True
+b) False
+ANS:b
+
+
+(2) Let's say that the plaintext "hello" is enciphered as "zbabh". What kind of cipher is this? (It is one of the three choices given)
+a) Substitution
+b) Transposition
+c) Product (both substitution and transposition)
+ANS:c
+
+(3) Rosetta stone is an example of which type of attack?
+a) Ciphertext only (have only the ciphertext)
+b) Known plaintext (have the ciphertext for a known plaintext)
+c) Chosen plaintext (can generate ciphertext for any plaintext)
+ANS:b
+
+
+(4) Which of the following are true about sending a PGP message from Alice to Bob?
+a) The plaintext is enciphered with Alice's public key
+b) The plaintext is enciphered with Alice's private key
+c) The plaintext is enciphered with Bob's public key
+d) The plaintext is enciphered with Bob's private key
+e) The plaintext is enciphered using a secret key
+f) The plaintext is compressed before it is enciphered
+g) The plaintext is compressed after it is enciphered
+h) The plaintext is signed using Bob's public key
+i) The plaintext is signed using Alice's public key
+j) The plaintext is signed using Alice's private key
+ANS:e,f,j
+
+
+(5) Briefly describe why a symmetric cipher is never used for a digital signature.
+ANS:Among the list of reasons the one is:
+The receiver would to have a copy of the key used to encode the hash of the message.
+
+(6) The key MUST be of the same length as that of the message in which cipher technique?
+a) Rail-fence
+b) Vegenere
+c) One Time pad
+d) Caesar cipher
+ANS:c
+
+
+(7) What is the most important difference between symmetric and asymmetric cryptography?
+ANS:symmetric do have only one key whereas in asymmetric there are two keys one for
+encrypting and the other for decrypting.
+
+(8) If I get a message from someone that's encrypted with my public key, then I'm assured about Origin Integrity.
+a) True
+b) False
+ANS:b
+
+
+(9) In what way does the Electronic Code Book mode of DES behave like a substitution cipher rather than a product cipher?
+ANS:Two identical  bits blocks will be encrypted identically.
+
+(10) The cipher text for word “SECURITY” using a rail-fence cipher with a key of 3 is:
+a) SUTERYCI
+b) SCRTEUIY
+c) YTIRUCES
+d) UGEWTKVA
+ANS:a
+
+
+(11) Vegenere is a :
+a) Substitution cipher
+b) Transposition cipher
+ANS:a
+
+
+(12) Keeping the enciphering and deciphering algorithm secret would violate which design principle?
+a) Principle of least privilege
+b) Principle of fail-safe defaults
+c) Principle of open design
+d) Principle of complete mediation
+e) Principle of separation of privilege
+f) Principle of psychological acceptability
+g) Principle of least common mechanism
+h) Principle of economy of mechanism
+ANS:c
+
+
+(13) Given enough time the private key can be derived from the public key.
+a) True
+b) False
+ANS:a
