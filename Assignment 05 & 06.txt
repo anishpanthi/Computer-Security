@@ -1,0 +1,165 @@
+Computer Security - CS466 DE
+Assignment 5 - Week 5 & 6
+-------------------------------------------------------------------------------------------------------
+Student Name: - Anish Panthi
+Student ID: - 984926
+-------------------------------------------------------------------------------------------------------------
+This assignment is based on topics covered in week 5 and 6 (lectures 8 & 9).
+Please submit your own work on time.  You'll NOT get credit if you submit the assignment after the due date.   
+Note that the completed assignment should be submitted in .txt format only.
+If you think that your answer needs explanation to get credit then please write it down.  
+If you’ve any questions about the assignment, then post a topic on the Sakai forum to discuss that problem.
+
+(1) Kerberos was a mythical three headed dog that guarded the gates of hell. What are the 3 "heads" of the Kerberos protocol?
+a) Authentication server (which requires a password)
+b) Internal firewall
+c) Ticket-granting server
+d) Client machine
+e) Target server (e.g. a print server which requires a ticket to use)
+ANS: a,c,e
+
+(2) What is a weakness of the Needham-Schroeder protocol?
+a) The clocks of the sender and receiver machines must be kept synchronized
+b) A predictable random number generator will allow an intruder to guess the session key
+c) A predictable random number generator will allow an intruder to guess the interchange key
+d) The session key doesn't have enough bits
+e) The interchange key doesn't have enough bits.
+ANS:b
+
+(3) During key exchange which of the following must be kept secret.
+a) How the key was generated
+b) The key itself
+c) The protocol used to exchange the key
+d) Who the sender is
+e) Who the receiver is
+ANS:b
+
+(4) It is crucial that no attacker is eavesdropping during key exchange.
+a) true
+b) false
+ANS:b
+
+(5) Which, in general, has a longer lifespan: a session key or an interchange key?
+a) Session key
+b) Interchange key
+c) Lifetime of both are the same
+ANS:b
+
+(6) Which of the following protocols require clock synchronization between the participants?
+a) Needham-Schroeder
+b) Denning-Sacco
+c) Otway-Rees
+d) Kerberos
+e) None of the above
+ANS:b,d
+
+(7) Lets say that I want my bank to wire you $1000. I encipher a message containing this request to the bank as follows:
+   	1. First generate a random session key
+   	2. Then encipher the session key with the bank's public key
+   	3. Then encipher the message with the session key
+   	4. Finally send the enciphered message and enciphered session key to the bank
+      When the bank gets the enciphered message, it does the following:
+   	1. Deciphers the enciphered session key using its private key
+   	2. Uses the session key to decipher the message
+   	3. Reads the plaintext of the message telling it to send you $1000
+   	4. Sends you the money
+     This protocol is seriously flawed. It's most serious failing is that it doesn't support which one of the following? Briefly explain why.
+a) Confidentiality
+b) Origin integrity
+c) Data integrity
+d) Availability
+ANS:b
+
+(8) Kerberos uses public key cryptography to exchange the session key between the authenticating server and the ticket granting server.
+a) true
+b) false
+ANS:b
+
+(9) Which of the following are true statements about a digital signature?
+a) Part of the procedure of creating a digital signature is to hash the message using a cryptographic checksum function.
+b) A message that is digitally signed must be encrypted before it is signed.
+c) Part of the procedure of creating a digital signature is to encrypt the message hash using the private key.
+d) Part of the procedure of creating a digital signature is to encrypt the message hash using the public key.
+e) A digital signature helps assure the integrity of the message.
+ANS:a,c,e
+
+(10) What is a weakness of the Denning-Sacco key exchange protocol?
+a) The clocks of the sender and receiver machines must be kept synchronized
+b) A predictable random number generator will allow an intruder to guess the session key
+c) A predictable random number generator will allow an intruder to guess the interchange key
+d) The session key doesn't have enough bits
+e) The interchange key doesn't have enough bits.
+ANS:a
+
+(11) Which of the following are acceptable ways to get the public key of a CA?
+a) From a list of trusted root certification authorities that ships with a browser
+b) From an unsolicited promotional email sent by the CA
+c) From a certificate chain
+d) From a flash drive mailed to you by the CA after they have validated your identity.
+e) From the home page of the CA
+ANS:a,c,d
+
+(12) In Kerberos, the print server shares a key with the authenticating server.
+a) true
+b) false
+ANS:b
+
+(13) Which of the following are true about a certificate?
+a) It associates an identity with a public key
+b) It contains the private key to use to decipher messages enciphered with the public key
+c) It is signed by the public key of a certifying authority.
+d) It is signed by the private key of a certifying authority.
+e) The content of a certificate is enciphered using the private key of a certifying authority
+ANS:a,d
+
+(14) A Certifying Authority (CA) always needs to be online to provide certificates to its clients.
+a) true
+b) false
+ANS:b
+
+(15) The SSL protocol uses the private key of the browser to encrypt the session key.
+a) true
+b) false
+ANS:b
+
+(16) Since the domain names https://www.mumde.net and https://mumde.net both are mapped to the same IP address, both are treated identically by a browser.
+a) true
+b) false
+ANS:b
+
+(17) When you get a certificate from a CA you must provide the CA with both your public and your private key.
+a) true
+b) false
+ANS:b
+
+(18) A PGP certificate can have more than one digital signature
+a) true
+b) false
+ANS:a
+
+(19) Let's say that your Student ID was a 20 digit random number instead of in the form of 000-98-xxxx. This was done to increase security by making it more difficult for somebody to guess your SID. This is a violation of which one of the following principles?
+a) Principle of least privilege
+b) Principle of fail-safe defaults
+c) Principle of economy of mechanism
+d) Principle of complete mediation
+e) Principle of open design
+f) Principle of separation of privilege
+g) Principle of least common mechanism
+h) Principle of psychological acceptability
+ANS:h
+
+(20) Let eCA be the public key of a CA, dCA be the private key of that CA and eJack be the public key of Jack.  How would a certificate issued by CA for Jack look like?
+ANS:Jack,Jack's address,ejack,issuer,serial#,expriation date.
+
+(21) If you use a CA, there is no single point of failure.
+a) true
+b) false
+ANS:a
+
+(22) Explain any 2 ways by which a Trudy can compromise the verification of a certificate.
+ANS:a)Steal the private key of the CA.She can use it to sign any certificate. If CA's private key 
+gets stolen,every certificate that was assigned by it should be revoked.
+b)Trudy could steal somebody's identity and get a certificate using that identity.
+
+(23) What is the importance of using Certificate chains?
+ANS:A chain is useful if alice doesn't know the CA that signed the certificate that contains Bob's public key.
