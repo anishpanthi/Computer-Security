@@ -1,0 +1,78 @@
+Computer Security - CS466 DE
+Assignment 6 - Week 7
+-------------------------------------------------------------------------------------------------------
+Student Name:
+Student ID:
+-------------------------------------------------------------------------------------------------------------
+This assignment is based on topics covered in week 7 (Lecture 10 & Chapter 11).
+Please submit your own work on time.  You'll NOT get credit if you submit the assignment after the due date.   
+Note that the completed assignment should be submitted in .txt format only.
+If you think that your answer needs explanation to get credit then please write it down.  
+If you’ve any questions about the assignment, then post a topic on the Sakai forum to discuss that problem.
+
+
+(1) What is the password that you use to log on to the Sakai system? I ask because I need to log on as you to verify that you are seeing your assignment/lab grades correctly. Thanks for your understanding.
+ANS: I am able to view grades correctly.If you want to verify, I can send the snapshots of it.
+However I am sorry I cannot provide you my credentails. Never tell anybody your password!!.
+
+(2) Which of the following passwords are susceptible to a dictionary attack?
+a) Maharishi
+b) flobbydr0mMel
+c) ice cream
+d) fjkakjkjvadoifj;lajd;lkjdfjkioopaj;ajkiojgadlkjao;ijpiojol;jkl;ajo;dfpoije
+e) DPOTMPSIA (first letters of the sentence Daily Practice Of Transcendental Meditation Promotes   
+    Skill In Action)
+ANS:Maharishi,ice cream
+
+
+(3) The ©Drib system required that users first login to a regular account before logging into a sysadmin (superuser) account.  Suppose that when the sysadmin login procedure asks for the password, it cannot open the password file (perhaps it’s been corrupted or there is some other problem with the file).  Suppose that when this extremely unusual and unlikely situation occurs, the login procedure allows the user access to the sysadmin account so he/she can fix the problem.  Which principles are being violated by this mechanism?  Which principles are being met?
+ANS:The principle of mediation is violated because any user can login to sysadmin account using their regular account credential.However
+the principle of psychological acceptability is met because only sysadmin can fix the problem.
+
+
+
+(4) Which of the following can be used to establish the identity of an external entity (a user of the computer system)?
+a) Where the entity is
+b) What the entity knows
+c) What the entity has
+d) The age of the entity
+e) What the entity is
+f)  When the entity logged on
+ANS:a,b,c,e
+
+
+(5) After reading all the literature on passwords, these appear to be the recommendations:
+
+   1. The password should be resistant to a dictionary attack
+   2. The password should be changed regularly
+   3. The password should not be written down
+   4. Different passwords should be used on different accounts
+
+What principle do these recommendations violate?
+
+a) Principle of least privilege
+b) Principle of fail-safe defaults
+c) Principle of economy of mechanism
+d) Principle of complete mediation
+e) Principle of open design
+f) Principle of separation of privilege
+g) Principle of least common mechanism
+h) Principle of psychological acceptibility
+ANS:c,h
+
+
+(6) A password is information associated with an external entity that confirms the identity of that entity.  What security measures should be taken to ensure the correctness of this binding?  Give 3 internal measures by the login program and 3 external measures by the user.  
+
+ANS:Three internal measures by the login program:
+1. The system should keep a history of the last six passwords used and not allow repeats. This forces users to use at least seven unique passwords.
+2. Accounts should be locked out after three bad password attempts (administrators should set lockout duration to more than 30 minutes or until an administrator unlocks the account).
+3. The program should not show previous username or save password.
+
+Three external measures by the user:		
+1. Passwords must contain at least eight characters, and preferably nine (recent security information reports that many cracking programs are using the eight character standard as a starting point). Also, each password must follow the standards set for strong passwords.
+2. Passwords must be changed every 30 days.
+3. The user should not write their password or send it via e-mail.
+
+
+(7) Your labs are saved in a database that is password protected. Imagine that you were maintaining the CS466 web site and you had to choose a password for the database. Give an example of a password that you might choose. Keep in mind that the password is primarily used by the web application to store and retrieve data from the database. Manual interaction with the database, such as typing in SQL queries in SQL Management Studio or/and IDE for MySQL, is kept to a minimum.
+ANS:
