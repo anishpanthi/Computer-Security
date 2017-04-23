@@ -1,0 +1,35 @@
+15th April 2017 Mid-Term Questions
+
+1. Define Risk, Assets, Threats, Vulnerabilities, with one example each. (5)
+
+2. Determine Confidentiality, Integrity and Availability for the following: (5)
+   a. A copies B' homework.
+   b. A destroies B'c OS.
+   c. A uses B's signature (something like this...)
+   d. ....
+   e. ....
+
+3. One Diagram was given and asked the following questions:
+   a. What is the name of this model? --> Bell-LaPadula Model diagram was given.
+   b. What this model focus for or explanation type question.
+
+4. Alice wants to send a secrete large message to Bob. How will she do this? (10 marks questions)
+
+5. Answer the following questions: (15 marks questions)
+   a. What is SHA-1?
+   b. How SHA-1 collision occurs?
+   c. How will you fix SHA-1 collision (or similar type question was asked...)
+
+6. CAPTCHA related questions, 16 marks.
+
+7. BotNet, DoS and DDoS related questions. (10 marks)
+
+8. Password Related Questions and What is Salt? What is the primary function of Salt?
+
+9. A wants to authenticate user without using HTTPs and wants to encrypt password using JavaScript. 
+   He then sends the encrypted password to server, and then server decrypts the password and checks it in database.
+   (The questions sounds like above. I don't remember the exact scenerio. Below was the question for this scenerio)
+   Is this the secure Authentication process? Briefly explain your answer. (10 marks question)
+
+10. Exlpain one SCI principle relating with course topic. (5 marks)
+   
