@@ -1,8 +1,8 @@
 Computer Security - CS466 DE
 Assignment 7 - Week 9
 -------------------------------------------------------------------------------------------------------
-Student Name: - Anish Panthi
-Student ID: - 984926
+Student Name: - 
+Student ID: - 
 -------------------------------------------------------------------------------------------------------------
 This assignment is based on topics covered in week 9 (Lecture 11 & Chapter 13).
 Please submit your own work on time.  You'll NOT get credit if you submit the assignment after the due date.   
