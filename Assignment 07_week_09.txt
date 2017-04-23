@@ -1,0 +1,75 @@
+Computer Security - CS466 DE
+Assignment 7 - Week 9
+-------------------------------------------------------------------------------------------------------
+Student Name: - Anish Panthi
+Student ID: - 984926
+-------------------------------------------------------------------------------------------------------------
+This assignment is based on topics covered in week 9 (Lecture 11 & Chapter 13).
+Please submit your own work on time.  You'll NOT get credit if you submit the assignment after the due date.   
+Note that the completed assignment should be submitted in .txt format only.
+If you think that your answer needs explanation to get credit then please write it down.  
+If you have any questions about the assignment, then post a topic on the Sakai forum to discuss that problem.
+
+
+(1) The Internet requires that every host has a domain name.
+a) true
+b) false
+ANS:b
+
+
+(2) What is the difference between a CA authentication policy and a CA issuance policy?
+ANS:. CA authentication policy is known as level of authentication required to identify 
+the principal to whom certificate to be issued.Whereas, CA issuance policy 
+is known as the principals to whom the CA will issue certificates.
+
+
+(3) What do you mean by a distinguished name?  Explain with an example.
+ANS:Distinguished name identifies the principal consisting with series of
+field each with a key and value. For example, name of different 
+people may be same but the key is different for all.
+
+
+(4) Which of the following are true about cookies?
+a) permanent cookies are stored on the server
+b) temporary cookies are stored on the client machine which is running the browser.
+c) a cookie is encrypted if SSL is used.
+d) the value of a cookie can be the serialization of a C# object (i.e., binary data)
+e) a temporary cookie is deleted after the browser sends it to the server.
+ANS:b
+
+
+(5) A principal is represented in computer memory by an identity.
+a) true
+b) false
+ANS:a
+
+
+(6) The same principal may have many different identities.
+a) true
+b) false
+ANS:a
+
+
+(7) What are the different types of certificates?
+ANS:    a) Site Certificate
+        b) Software-vendor Certificate
+        c) Personal Certificate
+        d) Anonymous Certificate
+
+
+
+
+(8) List two things that an identity is used for.
+ANS: a) Access Control
+     b) Accountability
+
+
+
+(9) What is a principal and what is an identity?
+ANS:    Principal: It is unique entity and represents the identity.
+         Identity: It is computer representation of an entity.
+
+
+(10) What’s the goal of a certificate in regards to identity?
+ANS: The certificate binds the cryptographic keys of identifiers with distinguished name, 
+   which uniquely represents the identity. 
