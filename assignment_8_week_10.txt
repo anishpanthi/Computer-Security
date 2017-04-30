@@ -1,0 +1,161 @@
+Computer Security - CS466 DE
+Assignment 8 - Week 10
+---------------------------------------------------------------------------------------------------
+Student Name: -
+Student ID: -
+---------------------------------------------------------------------------------------------------------
+This assignment is based on topics covered in week 10 (Lecture 12 & Chapter 19).
+Please submit your own work on time.  You will NOT get credit if you submit the assignment after the due date.   
+Note that the completed assignment should be submitted in .txt format only.
+If you think that your answer needs explanation to get credit then please write it down.  
+If you have any questions about the assignment, then post a topic on the Sakai forum to discuss that problem.
+
+(1) The Melissa virus is a
+a) Executable infector
+b) Boot sector virus
+c) Macro virus
+d) Multipartite virus
+ANS:C
+
+(2) A great text editor is UltraEdit. It lets you download a trial version that you can 
+      use for 30 days before having to pay for it. After 30 days, however, the trial 
+      program ceases to work. Is this an example of a logic bomb?
+a) Yes
+b) No
+ANS:No
+
+(3) The Father Christmas worm was effective because it employed what kind of 
+       engineering?
+a) Computer engineering
+b) Social engineering
+c) Software engineering
+d) Desktop engineering
+ANS:b
+
+(4) From the textbook "Defending against malicious logic takes advantage of 
+      several different characteristics of malicious logic to detect, or to block, its         
+      execution. The mechanisms are imprecise". Given this, which of the following   
+      statements are true?
+a) A defense mechanism is secure if it allows malicious logic that does not exhibit the given  
+    characteristic to proceed
+b) A defense mechanism is precise if it allows malicious logic that does not exhibit the given 
+    characteristic to proceed
+c) A defense mechanism is broad if it allows malicious logic that does not exhibit the given 
+    characteristic to proceed
+d) A defense mechanism is secure if it prevents programs from executing that are not 
+    malicious but do exhibit the given characteristic.
+e) A defense mechanism is precise if it prevents programs from executing that are not 
+    malicious but do exhibit the given characteristic.
+f) A defense mechanism is broad if it prevents programs from executing that are not 
+   malicious but do exhibit the given characteristic.
+ANS:d
+
+
+
+(5) The textbook gave the following example of a rabbit:
+while true
+  mkdir x (create a directory named x)
+  chdir x (make the newly created directory the current directory)
+done
+       Would this still be a rabbit if you removed the chdir x?
+a) Yes
+b) No
+c) It depends on whether the user has administrative privileges
+d) It depends on whether the user has permission to create nested directories.
+ANS:b
+
+(6) Traditional access controls are powerless to defend against Trojan horse 
+      programs.
+a) True
+b) False
+ANS:b
+
+(7) Which of the following are possible spread conditions for a computer virus?
+a) Today's date
+b) Number of times infected program has been executed since it was infected
+c) The type of the virus
+d) Existence of a file in a certain directory
+e) The covert action
+ANS:c
+
+(8) Let's say you got an email that told you that the file dvpsetup.exe in the 
+      windows system32 directory (c:\windows\system32 on my machine) was a 
+      dangerous virus and you should delete it immediately. The message claimed to 
+      come from SANS. Furthermore the message told you to forward it to everybody 
+      in your address book. So use windows explorer to see if you have dvpsetup.exe 
+      on your computer and you notice that its icon is an X which looks very 
+      suspicious. So you delete the file and tell all your friends to do so also. 
+     Unfortunately this is part of the Windows operating system (It is the Microsoft 
+     DirectPlay Voice Test.)   What is the best way to describe this email?
+a) It's a hoax
+b) It's a virus
+c) It's a worm
+d) It's a rabbit.
+e) none of the above
+ANS:e
+
+(9) How can a Trojan horse assume a user's identity?
+a) By using a dictionary attack.
+b) Effortlessly, because the user is logged on when he/she runs the trojan horse program.
+c) Effortlessly, because you have to have administrative privileges to run a trojan horse 
+    program.
+ANS:b
+
+(10) Which of these types of malicious logic are designed to avoid detection by a 
+       virus detection program?
+a) TSR viruses
+b) Encrypted viruses
+c) Trojan horses
+d) Boot sector infectors
+e) Polymorphic viruses
+ANS:b,e
+
+(11) Rabbit attacks which one of the following?
+a) Availability
+b) Confidentiality
+c) Integrity
+ANS:a
+
+
+(12) A manipulation detection code is based on:
+a) Permission bits
+b) Timestamps
+c) A keyed cryptographic checksum
+d) A keyless cryptographic checksum
+ANS:d
+
+
+(13) An MDC is
+a) A prevention mechanism
+b) A detection mechanism
+c) A way of enforcing a confidentiality policy
+d) A way of enforcing an integrity policy
+e) A way of enforcing an availability policy
+ANS:b
+
+
+(14) I have described how the Email new password button on the login page works. 
+        Let's say that instead of resetting the password to a random password, I reset  
+        the password to a default value such as "password". This default password 
+        would be used to reset any password. If I did this, briefly describe what would 
+        be involved for a student to get administrative privileges. (Hint, I have 
+        administrative privileges.)
+ANS:Someone who is not administrator can reset the other account’s password then after access other account.
+
+
+(15)  What is malicious logic?
+ANS:A set of instructions that cause site security policy to be violated.
+
+
+(16) Give some suggestions about how to stop spreading viruses?
+ANS:Some of the way stopping the viruses are
+    1.Do not downloads from unauthorize source.
+    2.Do not open the links attached to email from untrusted source.
+
+
+(17) Virtual machines are useful in protecting a computer from viruses.
+a) True
+b) False
+ANS:a
+
+
