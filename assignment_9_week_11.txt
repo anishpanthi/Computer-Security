@@ -1,0 +1,126 @@
+Computer Security – cs466 DE
+Assignment 9 – Week 11
+---------------------------------------------------------------------------------------------------
+Student Name : Anish Panthi
+Student ID : 984926
+---------------------------------------------------------------------------------------------------------
+This assignment is based on topics covered in week 11 (Lecture 13 & Chapter 20).
+Please submit your own work on time.  You'll NOT get credit if you submit the assignment after the due date.   
+Note that the completed assignment should be submitted in .doc, .txt or .pdf format only.
+If you think that your answer needs explanation to get credit then please write it down.  
+
+If you’ve any questions about the assignment, then post a topic on the Sakai forum to discuss that problem.
+---------------------------------------------------------------------------------------------------------
+
+
+(1) Which of the following are true about penetration testing?
+a) it considers the environment in which the computer system runs
+b) it is a formal method
+c) it can find a security flaw
+d) it can prove that a security flaw does not exist
+e) it should be authorized by management
+f) it is a very informal, non-rigorous technique for checking the security of a system.
+ANS: a) it considers the environment in which the computer system runs
+     c) it can find a security flaw
+     f) it is a very informal, non rigorous technique for checking the security of a system.
+
+(2) Which of these types of attackers is most likely to use social engineering?
+a) external attacker with no knowledge of system
+b) external attacker with access to system
+c) internal attacker with access to system
+ANS: a) external attacker with no knowledge of system
+
+(3) Which of the following describe what a vulnerability in a computer system is?
+a) it is a specific failure of one or more controls
+b) it is a security flaw
+c) it is something that an attacker wants
+d) none of the above
+ANS: a) it is a specific failure of one or more controls
+     b) it is security flaw
+
+(4) One exploits a
+a) vulnerability
+b) threat
+c) access control
+d) security model
+ANS: a) vulnerability
+
+(5) Which one of the following layers is normally skipped in penetration testing done during design and development?
+a) external attacker with no knowledge of the system
+b) external attacker with access to the system
+c) internal attacker with access to the system
+ANS: a) external attacker with no knowledge of the system
+
+(6) Which one of the following sources is least likely to provide useful information during the information gathering step of the Flaw Hypothesis Methodology?
+a) design documents
+b) manuals
+c) source code of programs
+d) past experience with the system
+e) newspapers
+f) google
+ANS: e) newspapers
+
+(7) Flaw generalization often leads the tester to a new flaw.
+a) true
+b) false
+ANS: a) true
+
+(8) Which of the following are not steps in the Flaw Hypothesis Methodology?
+a) information gathering
+b) flaw hypothesis
+c) flaw testing
+d) flaw generalization
+e) flaw elimination
+f) flaw creation
+ANS: f) flaw creation
+
+(9) Which of the following layers might use a guest account?
+a) external attacker with no knowledge of the system
+b) external attacker with access to the system
+c) internal attacker with access to the system
+ANS: c) internal attacker with access to the system
+
+(10) Which of the following are true about the flaw testing step of the flaw hypothesis methodology?
+a) the tester's goal should be to demonstrate what a hostile explorer of the system could do, not to be that hostile attacker
+b) a tester should do no harm to the system in demonstrating the flaw
+c) a tester must exploit the flaw only if management doesn't believe the flaw exists
+d) a tester must describe how to duplicate a test that exposes a security flaw
+e) the test that demonstrates the flaw should be as complex as possible
+ANS: a) The tester's goal should be to demonstrate what a hostile explorer of the system could do, not to be that hostile attacker
+     d) a tester must describe how to duplicate a test that exposes a security flaw
+
+(11) From the book: "Ultimately, the testers (and not the developers) must decide which layers are appropriate." This is reminiscent of which type of security model?
+a) Clark-Wilson
+b) Bell-LaPadula
+c) Biba
+d) Chinese Wall
+ANS: a) Clark-Wilson
+
+(12) Let's say that a penetration test revealed that an administrator was using the password "Admin" which was easily guessed. Briefly describe two generalizations of this flaw.
+ANS: a) Password policy should be strong enough.
+     b) Multiple accounts with default password may exist.
+
+(13) What three questions does the NRL taxonomy attempt to answer?
+a) how did flaw enter system?
+b) when did flaw enter system?
+c) where did flaw enter system?
+d) why did flaw enter system?
+e) what did the flaw do when it entered the system?
+ANS: a) how did flaw enter system?
+     b) when did flaw enter system?
+     c) where did flaw enter system?
+
+(14) Knowledge of which area is most critical to understand the Michigan terminal penetration test?
+a) networks
+b) operating systems
+c) distributed computing
+d) compilers
+e) software engineering
+ANS: b) operating systems
+
+(15) What is the difference between formal verification and penetration testing?
+ANS: Formal verification is the act of proving or disproving the correctness of intended algorithms underlying a system with respect to a certain formal specification or property. Formal verification verifies the non existence of flaw in the program, it does not test it only verifies. Penetration testing simulates an attack by a malicious party. Penetration testing tests the presence of flaw or not, it does not verifies, it only tests.
+
+
+(16) Explain briefly what a buffer overflow attack is.
+ANS: A buffer overflow, or buffer overrun, is an anomalous condition where a process attempts to store data beyond the boundaries of a fixed-length buffer. The result is that the extra data overwrites adjacent memory locations. The overwritten data may include other buffers, variables and program flow data, and may result in erratic program behavior, a memory access exception, program termination (a crash), incorrect results or - especially if deliberately caused by a malicious user - a possible breach of system security.
