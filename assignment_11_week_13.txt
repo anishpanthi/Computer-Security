@@ -1,0 +1,206 @@
+Computer Security - CS466 DE
+Assignment 11 - Week 13
+---------------------------------------------------------------------------------------------------
+Student Name: - 
+Student ID: - 
+---------------------------------------------------------------------------------------------------------
+This assignment is based on topics covered in week 13 (Chapter 23).
+Please submit your own work on time. You will NOT get credit if you submit the assignment after the due date.   
+Note that the completed assignment should be submitted in .txt format only.
+If you think that your answer needs explanation to get credit then please write it down.  
+If you have any questions about the assignment, then post a topic on the Sakai forum to discuss that problem.
+
+(1) What is a DMZ (demilitarized zone)? Choose all that apply.
+a) it is another name for a firewall
+b) it is a portion of a network that separates a purely internal network from an external 
+    network
+c) it is a router that bypasses an internal network
+ANS:b
+
+
+(2) The way that the Drib Corporation moves data from one class to another is best 
+      described by which one of the following principles?
+a) principle of least privilege
+b) principle of fail-safe defaults
+c) principle of economy of mechanism
+d) principle of complete mediation
+e) principle of open design
+f) principle of separation of privilege
+g) principle of least common mechanism
+h) principle of psychological acceptability
+ANS:f
+
+
+(3) The firewalls are configured using configuration files. The only packets that are 
+       let through are those that are specifically allowed. E.G., there is an entry in the 
+       configuration file of the outer firewall that allows a packet coming from the 
+       Internet addressed to port 80 to be sent to the DMZ Web Server.
+a) principle of least privilege
+b) principle of fail-safe defaults
+c) principle of economy of mechanism
+d) principle of complete mediation
+e) principle of open design
+f) principle of separation of privilege
+g) principle of least common mechanism
+h) principle of psychological acceptability
+ANS:b
+
+
+(4) The fact that developers are not allowed to telecommute, e.g., VPN into the 
+       internal network from home, is a violation of which of principle?
+a) principle of least privilege
+b) principle of fail-safe defaults
+c) principle of economy of mechanism
+d) principle of complete mediation
+e) principle of open design
+f) principle of separation of privilege
+g) principle of least common mechanism
+h) principle of psychological acceptability
+ANS:h
+
+
+(5) The policy and rules of the Drib security policy are available to all employees. In 
+       fact, the employees are encouraged to understand them. This is an example of 
+       which principle?
+a) principle of least privilege
+b) principle of fail-safe defaults
+c) principle of economy of mechanism
+d) principle of complete mediation
+e) principle of open design
+f) principle of separation of privilege
+g) principle of least common mechanism
+h) principle of psychological acceptability
+ANS:e
+
+
+(6) The fact that every packet sent from the internal network must go through the 
+       inner firewall and every packet coming from the Internet must go through the 
+       outer firewall is an example of which one of these principles at work?
+a) principle of least privilege
+b) principle of fail-safe defaults
+c) principle of economy of mechanism
+d) principle of complete mediation
+e) principle of open design
+f) principle of separation of privilege
+g) principle of least common mechanism
+h) principle of psychological acceptability
+ANS:d
+
+
+(7) At one level, the security of the Drib system is based on how firewalls and 
+      access control lists are configured. But this security depends on the correct 
+      functioning of the firewall software and the operating system. What principle     
+      should the writers of the firewall software follow to minimize the chance that 
+      the firewall software will fail to work according to its specification?
+a) principle of least privilege
+b) principle of fail-safe defaults
+c) principle of economy of mechanism
+d) principle of complete mediation
+e) principle of open design
+f) principle of separation of privilege
+g) principle of least common mechanism
+h) principle of psychological acceptability
+ANS:f
+
+
+(8) Not allowing developers to view customer data is an example of
+a) principle of least privilege
+b) principle of fail-safe defaults
+c) principle of economy of mechanism
+d) principle of complete mediation
+e) principle of open design
+f) principle of separation of privilege
+g) principle of least common mechanism
+h) principle of psychological acceptability
+ANS:a
+
+
+(9) What kind of access control policy is implemented in the internal Drib network?
+a) discretionary
+b) mandatory
+c) originator controlled
+d) none of the above
+ANS:b
+
+
+(10) The fact that the internal network has to get through both inner and outer 
+         firewalls to get to the Internet is an example of which one of these principles?
+a) principle of least privilege
+b) principle of fail-safe defaults
+c) principle of economy of mechanism
+d) principle of complete mediation
+e) principle of open design
+f) principle of separation of privilege
+g) principle of least common mechanism
+h) principle of psychological acceptability
+ANS:f
+
+
+(11) The four servers in the DMZ zone are all on separate computers. This is an 
+       example of which principle?
+a) principle of least privilege
+b) principle of fail-safe defaults
+c) principle of economy of mechanism
+d) principle of complete mediation
+e) principle of open design
+f) principle of separation of privilege
+g) principle of least common mechanism
+h) principle of psychological acceptability
+ANS:g
+
+
+(12) Preventing the Drib's employees from accessing the Internet is described in 
+         the Bell-LaPadula model as:
+a) no reads up
+b) no writes down
+c) no reads down
+d) no writes up
+ANS:a
+
+(13) Preventing developers from writing to the web server machine in the DMZ is 
+        described in the Biba integrity model as:
+a) no reads up
+b) no writes down
+c) no reads down
+d) no writes up
+ANS:d
+
+
+(14) Briefly argue that the customer service group does not have access to the 
+        Web-Clone machine because of confidentiality concerns. (Hint: use Bell-
+        LaPadula)
+ANS:
+
+
+(15) Now briefly argue that the customer service group does not have access to the 
+        Web-Clone machine because of integrity concerns. (Hint: use Biba)
+ANS: 
+
+
+(16) When is cryptography used in the Drib system?
+a) when a trusted administrator copies web pages from WWW-Clone to the DMZ web server
+b) When a developer copies web pages to the WWW-Clone machine
+c) when an Internet customer, using the web site, views a list of products that Drib provides
+d) when any employee sends an email
+ANS:a
+
+
+(17) In the Drib system, how is malicious logic prevented from entering the internal 
+        network?
+a) Mail server proxy in DMZ
+b) Internal mail server
+c) Educating of the Drib employees about the danger of malicious logic
+ANS:a
+
+
+(18) Which three of the following principles are most relevant to the failing to store 
+         and protect data securely sin?
+a) principle of least privilege
+b) principle of fail-safe defaults
+c) principle of economy of mechanism
+d) principle of complete mediation
+e) principle of open design
+f) principle of separation of privilege
+g) principle of least common mechanism
+h) principle of psychological acceptability
+ANS:b,f
